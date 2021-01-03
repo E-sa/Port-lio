@@ -1,0 +1,98 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.outer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 25vh;
+}
+
+        
+
+.container .nav {
+    display: flex;
+    justify-content: center;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: 0 0 10px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: larger;
+    color: #293250;
+    font-weight: bold;
+}
+
+a{
+    font-weight: bold;
+}
+
+#myCarousel{
+    width: 35vw;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: -18px !important;
+    color: #293250;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    left: -18px !important;
+    color: #293250;
+    
+
+}
+
+#left, #right{
+    background-image: none;
+}
+
+.carousel-indicators{
+    margin-bottom: 30px;
+}
+img{
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    border-radius: 20px;
+
+}
+img:hover {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;   
+ }
+
+ .carousel-indicators li{
+    border: 2px solid #293250 !important;
+ }
+
+
+
+@media screen and (max-width: 600px) {
+    #myCarousel{
+        width: 100%;
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        right: -5px !important;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+        left: -5px !important;        
+
+    }
+}
