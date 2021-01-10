@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -95,4 +95,8 @@ img:hover {
         left: -5px !important;        
 
     }
+}
+
+#aboutme{
+    height: 100vh;
 }
